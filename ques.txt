@@ -1,0 +1,129 @@
+🚆 Railway Ticket Booking System
+
+Problem Statement:
+You are tasked with creating a simple railway ticket booking system for a fictional railway company called CodeRail. The system should ask users for their age, travel class, and whether they want a meal included. Based on this input, the system will calculate and display the total ticket price.
+
+🎯 Requirements:
+
+1. Ask the user for their name and age.
+2. Ask them to choose a class:
+
+⿡ First Class – ₹1500
+⿢ Second Class – ₹1000
+⿣ Sleeper Class – ₹500
+
+3. If the passenger is under 5 years old, the ticket is free.
+
+4. If the passenger is a senior citizen (60+), apply a 20% discount.
+
+
+5. Ask if they want to add a meal:
+
+Yes – ₹200 extra
+
+No – No extra charge
+
+
+
+
+6. Finally, print the passenger details and the final ticket price.
+
+------------------------------------------------------------------------------------------------------------
+
+💻 Sample Output:
+
+Welcome to CodeRail Railway Booking System 🚆
+
+Enter your name: Rahul
+Enter your age: 65
+Choose travel class:
+1. First Class
+2. Second Class
+3. Sleeper Class
+Enter choice (1/2/3): 1
+Do you want to add a meal? (yes/no): yes
+
+----- Ticket Summary -----
+Passenger Name: Rahul
+Age: 65
+Class: First Class
+Meal Added: Yes
+Final Price: ₹1400.0
+Enjoy your journey! 🎉
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+🧠Burger King has launched a self-order kiosk where customers can place their orders using a Python-based system. Your task is to build a simple Burger King order system in Python. The system should:
+- Display a menu with 3 items and their prices.
+- Let the user choose what they want to order and how many.
+- Ask the user if they have a 
+
+coupon code
+.
+- If the user enters a valid coupon code, apply the discount.
+- Display the final bill with or without discount applied.
+
+
+
+
+🧾MENU
+
+
+  Item                                                             Price (₹)
+
+1. Whopper Burger                                    ₹150
+                            
+2. Crispy Veg                                         ₹100                                   
+3. Chicken Wings                                  ₹120                                
+
+
+
+
+
+
+
+🎟️
+
+
+Code                                                               Discount
+
+KING50                                                         50% off                                                        
+
+BK20                                                         ₹20 off total                                                        
+
+
+NOCOUPON                                                  No discount
+
+
+
+
+🎯
+Use if-else statements to check coupon codes.
+
+Calculate total price based on the quantity.
+
+Apply the discount accordingly.
+
+Print a at the end.
+
+
+🧪
+Welcome to Burger King 🍔!
+
+Menu:
+1. Whopper Burger - ₹150
+2. Crispy Veg - ₹100 
+3. Chicken Wings - ₹120 
+Enter the item number (1/2/3): 1
+
+Enter quantity: 2 
+Do you have a coupon code? (yes/no): yes
+Enter your coupon code: KING50 
+Applying coupon...
+Original Price: ₹300 
+Discount Applied: 50% 
+Final Price: ₹150 
+Thanks for ordering at Burger King! 🍟
