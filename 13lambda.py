@@ -31,11 +31,12 @@ l=[12,35,11,10,4,32]
 # for i,j in enumerate(l):
 #     print(i,"--",j)
 
-di= {'name':'Sourav','class':'btech','rollno':123}
-for i in di.items():
-    print(i)
-for i,j in enumerate(di.items()):  # .keys or .values
-    print(i,"--",j)
+# di= {'name':'Sourav','class':'btech','rollno':123}
+# for i in di.items():
+#     print(i)
+# for i,j in enumerate(di.items()):  # .keys or .values
+#     print(i,"--",j)
     
     
-    
+
+
