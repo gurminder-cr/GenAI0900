@@ -29,6 +29,5 @@ except IndexError as e:
 #     print("Error is",e)
 finally:
     print("Always Executed")
-
 print("Hello ")
 
