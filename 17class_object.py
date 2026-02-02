@@ -12,7 +12,7 @@ class Student:
         pass 
     def getPriyanshu(self):
         self.name=input("Enter Name ")
-        self.rollno=input("Enter Rollno ")
+        self.rollno=input("Enter Rollno ")  
     def printValues(self):
         # print(f"Name is {self.name} and rollno is {self.rollno}")
         students_details.append({self.name:self.rollno})
