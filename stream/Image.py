@@ -4,7 +4,7 @@ import streamlit as st
 import requests
 from PIL import Image
 from io import BytesIO
-url = "https://95be-34-91-17-127.ngrok-free.app/generate"
+url = "https://e125-136-110-24-97.ngrok-free.app/generate"
 with st.form(key='my-form'):
     prompt= st.text_input("Enter Prompt ")
 

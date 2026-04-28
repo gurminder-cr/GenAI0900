@@ -13,17 +13,18 @@ def index():
 
 @app.get('/name')
 def printNaam():
-    return {'message':'Hello Karanpreet'}
+    return {'message':'Hello Rohitpreet'}
 
-# @app.get('/{name}')
-# def getName(name:str):
-#     return {'Name is':f'{name}'}
+@app.get('/{name}')
+def getName(name:str):
+    return {'Name is':f'{name}'}
+
 # @app.post('/{name}')
 # def getName(name:str):
 #     return {'Name is':f'{name}'}
 
 @app.post('/getname')
-def getName(data:getData):
+def getName1(data:getData):
     dict_data= data.model_dump() #Export the model instance to a dictionary
     print(dict_data)
     

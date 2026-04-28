@@ -12,8 +12,11 @@ st.header('API call')
 #     response= requests.get(url)
 #     st.write(response.json())
     
-url='http://13.127.253.83:8000/getname'
-# url='http://127.0.0.1:8000/getname'
+# url='http://13.127.253.83:8000/getname'
+
+
+url='http://127.0.0.1:8000/getname'
+
 name= st.text_input('Name')
 if st.button("Submit"):
     st.write(name)
