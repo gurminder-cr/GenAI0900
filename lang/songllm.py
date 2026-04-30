@@ -4,7 +4,6 @@ from langchain_core.output_parsers import StrOutputParser
 from dotenv import load_dotenv # to load environment variables 
 from langchain_ollama import OllamaLLM
 import os 
-
 load_dotenv()
 os.environ['LANGSMITH_API_KEY']=os.getenv('LANGSMITH_API_KEY')
 os.environ['LANGSMITH_TRACING']=os.getenv('LANGSMITH_TRACING')
