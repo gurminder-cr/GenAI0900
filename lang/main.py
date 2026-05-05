@@ -15,7 +15,6 @@ prompt= ChatPromptTemplate.from_messages(
     ]
 )
 st.title("ChatBOT")
-
 llm=OllamaLLM(model="gemma3:1b")
 input_text= st.text_input("Enter Your Question here...")
 output= StrOutputParser()
